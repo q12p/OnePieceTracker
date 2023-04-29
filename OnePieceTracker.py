@@ -12,7 +12,7 @@ client = Client(account_sid, auth_token)
 
 # Create webdriver object in headless mode
 options = webdriver.FirefoxOptions()
-options.add_argument('-kiosk')
+options.add_argument('-headless')
 driver = webdriver.Firefox(options=options)
  
 # Go to mangaplus page
